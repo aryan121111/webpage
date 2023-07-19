@@ -1,0 +1,66 @@
+.background-text h2{
+    color: greenyellow;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.inner-content h3{
+    font-size: 31px;
+}
+.inner-content h2{
+    font-size: 38px;
+}
+.inner-content p{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.inner-content .booknow{
+    padding: 1rem 3rem;
+    color: black;
+    font-size: 1.5rem;
+    border: 0.3px blue;
+}
+.inner-content .booknow:hover{
+padding: 1.5rem 1rem;
+border: 1px solid white;
+border-radius: 15px;
+background: yellow;
+}
+.form-heading{
+    text-align: center;
+    background: blueviolet;
+    padding: 1rem 0;
+}
+.form-heading h1{
+    color: white;
+}
+.contact-form{
+    width: 25rem;
+    background: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+.form-fields input{
+    padding: 0.3rem ;
+    border: none;
+    border-bottom: 1px blue;
+}
+.contact-form a{
+    background: black;
+    width: 100%;
+    display: inline-block;
+    padding: 2rem 0;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+.book-now{
+    padding-top: 2rem;
